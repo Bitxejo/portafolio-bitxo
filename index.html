@@ -1,0 +1,449 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Añadimos autor descripcion y palabras clave en los metadatos -->
+    <meta name="author" content="Bitxo & Obama">
+    <meta name="description" content="Briefcase WebDeveloper Bitxo">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    
+
+     
+    <!-- Boostrap  -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <!-- css -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rock+Salt&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    
+    <title>Bitxo |Portafolio bootstrap |WebDeveloper </title>
+    
+    <!-- Favicon Cambiamos icono barra navegacion-->
+    <link rel="icon" type="image/x-icon" href="imagens/IMG-20211026-WA0004.jpeg">
+    <!-- <link rel="icon" type="image/x-icon" href="./imagens/icono.png> -->
+
+</head>
+<body>
+
+      <!-- Añadimos barra de navegacion ,responsiva y se ocultara en dispositivos pequeños -->
+      <!-- La barra de navegacion la insertamos en un div con clase container fluido ajusta al 100 -->
+      <nav class="navbar navbar-expand-md bg-body-tertiary navbar-light">
+        <div class="container-fluid">
+          
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+          
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+              <a class="navbar-brand" href="#">
+                  <img class="img-fluid nav-imagen rounded-circle" src="imagens/IMG-20221008-WA0002.jpeg"  alt="Logo pagina web">
+             </a>
+
+
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Comments</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "href="#" >Contacts</a>
+              </li>
+            </ul>
+            
+           
+          </div>
+        </div>
+      </nav>
+    
+            <!-- Seccion Hero o seccion principal -->
+
+         <section class="hero align-items-stretch">
+            <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+                <img  class="hero-image rounded-circle img-fluid" src="imagens/IMG-20220318-WA0013.jpeg"  title="Bitxo" alt="Foto bitxo">
+                <h1>Hellow I'm Bitxo</h1>
+                <h2>Toolmaker and WebDeveloper in practice</h2>
+            </div>
+            <div class="hero-inferior">
+              <img class="hero-inferior-imagen img-fluid" src="imagens/hero-inferior.svg" alt="Imagen laptop">
+            </div>
+          </section>
+            
+          <!-- About me section -->
+
+          
+          <section class ="sobre-mi  seccion-oscura"> 
+            <div class="contenedor">
+             <h2 class="seccion-titulo ">Conoce a Bitxo y Obama</h2>
+             <p class="seccion-texto">Toolmaker con mas de 25 de experiencia , con herramientas de clase A 
+              y gran experiencia con external parts . He desempeñado labores de team-leader en try-out y como responsable de seccion y turno. Actualmente sigo trabajando de Toolmaker , aunque por circunstancias ajenas y debido al poco futuro que tiene esta profesion actualmente , estoy intentando formarme como WebDeveloper e intentar reciclarme para lo que pueda surgir.
+             </p>
+           </div>
+          </section>
+
+          <!-- Experiencia -->
+           
+          
+          <section class="experiencia seccion-clara">
+            <div class="container text-center">
+             
+              <div class="row">
+                <div class="columna col-12 col-md-4">
+                  <i class="bi bi-laptop"></i>
+                  <p class="experiencia-titulo">Desarrollo web</p>
+                  <p>Sint reprehenderit aute irure incididunt voluptate excepteur duis et. Nulla sunt mollit deserunt quis laborum nostrud qui nostrud nulla ullamco sint occaecat ex deserunt. Consectetur et nulla id ut reprehenderit ipsum tempor. </p>
+                  <div class="badges-contenedor">
+
+                    <span class="badge text-bg-primary">HTML</span>
+                    <span class="badge text-bg-primary">CSS</span>
+                    <span class="badge text-bg-primary">JavaScript</span>
+                    <span class="badge text-bg-primary">React</span>
+                  </div>
+                </div>
+              
+                <div class="columna col-12 col-md-4">
+                  <i class="bi bi-laptop"></i>
+                  <p class="experiencia-titulo">Articulos</p>
+                  <p>Sint reprehenderit aute irure incididunt voluptate excepteur duis et. Nulla sunt mollit deserunt quis laborum nostrud qui nostrud nulla ullamco sint occaecat ex deserunt. Consectetur et nulla id ut reprehenderit ipsum tempor. </p>
+                  <div class="badges-contenedor">
+
+                    <span class="badge text-bg-primary">Escribir</span>
+                    <span class="badge text-bg-primary">Editar</span>
+                    <span class="badge text-bg-primary">Blocks</span>
+                  </div>
+                  
+                  
+                </div>
+                <div class="columna col-12 col-md-4">
+                  <i class="bi bi-laptop"></i>
+                  <p class="experiencia-titulo">Experiencia</p>
+                  <p>Sint reprehenderit aute irure incididunt voluptate excepteur duis et. Nulla sunt mollit deserunt quis laborum nostrud qui nostrud nulla ullamco sint occaecat ex deserunt. Consectetur et nulla id ut reprehenderit ipsum tempor. </p>
+                  <div class="badges-contenedor">
+
+                    <span class="badge text-bg-primary">Udemy</span>
+                    <span class="badge text-bg-primary">freeCodeCamp</span>
+                    <span class="badge text-bg-primary">ToolMaker</span>
+                    <span class="badge text-bg-primary">WebDeveloper</span>
+                  </div> 
+                </div>
+              </div>
+
+                
+            </div>
+          </section>
+
+                
+          <!-- PROYECTOS -->
+
+          <section class="proyectos-recientes seccion-clara d-flex flex-column" >
+            <h2 class="seccion-titulo texto-negro">My projects</h2>
+            <h3 class="seccion-descripcion">These are some of my recentely projects</h3>
+
+            <!-- galeria de proyectos -->
+            <div class="container text-center proyecto-contenedor">
+              <div class="row">
+               
+                <!-- Proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imagens/proyecto1.png" alt="Project 1" >
+                    <div class="overlay">
+                      <p>Project 1</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com/Bitxejo/BlackJackBitxo" title="BitxejoGitHub"    target="_blank" rel=" noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.freecodecamp.org/espanol/" target="_blank" title="freeCodeCamp" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imagens/proyecto2 (1).png" alt="Project 1" >
+                    <div class="overlay">
+                      <p>Project 2</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://app.netlify.com/teams/bitxejo/overview" title="BitxejoNetlify"    target="_blank" rel=" noopener noreferrer">
+                          <i class="bi bi-microsoft-teams"></i>
+                          
+                        </a>
+                        <a href="https://www.freecodecamp.org/espanol/" target="_blank" title="freeCodeCamp" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imagens/proyecto3.png" alt="Project 1" >
+                    <div class="overlay">
+                      <p>Project 3</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://app.netlify.com/sites/appbitxopresupuesto/overview" title="BitxejoNetlifyPresupuesto"    target="_blank" rel=" noopener noreferrer">
+                          <i class="bi bi-file-earmark-spreadsheet"></i>
+                        </a>
+                        <a href="https://www.freecodecamp.org/espanol/" target="_blank" title="freeCodeCamp" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imagens/proyecto4.png" alt="Project 1" >
+                    <div class="overlay">
+                      <p>Project 4</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://app.netlify.com/sites/appcalculadora1/overview" title="BitxejoNetlifyCalculator"    target="_blank" rel=" noopener noreferrer">
+                          <i class="bi bi-calculator"></i>
+                        </a>
+                        <a href="https://www.freecodecamp.org/espanol/" target="_blank" title="freeCodeCamp" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imagens/proyecto5.png" alt="Project 1" >
+                    <div class="overlay">
+                      <p>Project 5</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com/Bitxejo" title="BitxejoGitHub"    target="_blank" rel=" noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.freecodecamp.org/espanol/" target="_blank" title="freeCodeCamp" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imagens/proyecto6.png" alt="Project 1" >
+                    <div class="overlay">
+                      <p>Project 6</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com/Bitxejo" title="BitxejoGitHub"    target="_blank" rel=" noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.freecodecamp.org/espanol/" target="_blank" title="freeCodeCamp" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>          
+            <a href="https://github.com/Bitxejo" target="_blank" rel="noopener no" title="moreProjects">
+              <button type="button" class="btn btn-info">More projects
+                <i class="bi bi-arrow-right-circle-fill"></i>
+              </button>
+            </a>
+          </section>
+
+
+          <!-- ARTICULOS -->
+
+          <section class="articulos justify-content-start">
+            <h2 class="seccion-titulo texto-negro">Articulos</h2>
+            <div class="card" >
+              <div class="card-header">
+                Mas recientes
+              </div>
+              <div>
+              <ul class="list-group list-group-flush">
+               
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" title="Mas articulos" rel="noopener noreferrer">
+                    <li class="list-group-item">Web desarrolladores mozzila , informacion y documentacion de programacion>
+                  </a>
+                </li>
+
+
+                <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" title="Mas articulos" rel="noopener noreferrer">
+                  <li class="list-group-item">freeCodeCamp noticias,informacion,cursos,etc..>.
+                </a>
+               </li>
+
+                <a href="https://javascript.espaciolatino.com/evaluar/" target="_blank" title="Mas articulos" rel="noopener noreferrer">
+                  <li class="list-group-item">Ejercicios y retos JavaScript>
+                </a>
+               </li> 
+
+                
+                
+              </ul>
+            </div>
+            <a href="https://desarrolloweb.com/" target="_blank" rel="noopener no" title="moreProjects">
+              <button type="button" class="btn btn-info">More articles
+                <i class="bi bi-arrow-right-circle-fill"></i>
+              </button>
+            </a>
+
+          </section>
+
+
+            <!-- TESTIMONIOS -->
+          
+            <section class="testimonios seccion-clara">
+              <h2 class="seccion-titulo">Tetimonios</h2>
+              <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes</h3>
+   <!-- carrusel -->
+              <div id="testimonios-carrusel"  class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">      
+        
+        <div class="container">
+          <img src="imagens/IMG-20210920-WA0002.jpeg "  class="testimonio-imagen rounded-circle" alt="Bitxo" title="Bitxejo">
+          <p class="testimonio-texto">Cupidatat laboris nostrud non ad eu pariatur nostrud laboris qui veniam est est. Proident exercitation proident dolor cupidatat dolore ad .</p>
+          <div class="testimonio-info">
+            <p class="cliente">Bitxo</p>
+            <p class="cargo">Director general</p>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      <div class="carousel-item ">
+        <div class="container">
+          <img src="imagens/IMG_20181026_154122.jpg "  class="testimonio-imagen rounded-circle" alt="Bitxo" title="Bitxejo">
+          <p class="testimonio-texto">Cupidatat laboris nostrud non ad eu pariatur nostrud laboris qui veniam est est. Proident exercitation proident dolor cupidatat dolore ad .</p>
+          <div class="testimonio-info">
+            <p class="cliente">Alex&Drogas&Bitxo</p>
+            <p class="cargo">Equipo de gestion</p>
+          </div>
+        </div>
+      
+        
+      </div>
+      
+         <div class="carousel-item">
+            
+        
+          <div class="container">
+            <img src="imagens/FB_IMG_1553742173999.jpg "  class="testimonio-imagen rounded-circle" alt="Bitxo" title="Bitxejo">
+            <p class="testimonio-texto">Cupidatat laboris nostrud non ad eu pariatur nostrud laboris qui veniam est est. Proident exercitation proident dolor cupidatat dolore ad nisi cupidatat. Occaecat amet enim cupidatat officia exercitation aute incididunt.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Bitxo&Triki</p>
+              <p class="cargo">Departamento ocio nocturno</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+                </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+             </button>
+            </div>
+            </section>
+<!-- Contacto -->
+
+<section class="contacto seccion-oscura">
+  <div class="container">
+    <div class="container text-center rectangulo d-flex justify-content-evenly">
+      <div class="row">
+        <div class="col-12 col-md-4 seccion-titulo">
+          !Hablemos¡
+        </div>
+        <div class="col-12 col-md-4 descripcion">
+          Contact with me for more information
+        </div>
+        <div class="col-12 col-md-4">
+          <a href="mailto:Bitxogm1976@gmail.com">
+            <button type="button">
+              Contacta 
+              <i class="bi bi-envelope-at-fill"></i>
+            </button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+  <img class="footer-icono" src="imagens/icono-blanco.svg" alt="icono">
+  <p class="footer-texto text-center">Aprendo y creo todos los dias</p>
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <a href="" target="_blank" rel="noopener noreferrer" title="link">
+      <i class="bi bi-twitter"></i>
+    </a>
+    <a href="" target="_blank" rel="noopener noreferrer" title="link">
+      <i class="bi bi-facebook"></i>
+    </a>
+    <a href="" target="_blank" rel="noopener noreferrer" title="link">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="" target="_blank" rel="noopener noreferrer" title="link">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="" target="_blank" rel="noopener noreferrer" title="link">
+      <i class="bi bi-envelope"></i>
+    </a>
+   
+   
+
+
+
+
+
+  </div>
+  <div class="derechos-de-autor">Creado por BITXO  &#169; (2023=>)</div>
+</footer>
+
+
+
+
+
+
+    <!-- javascript de boostrap al final de etiqueta body -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
